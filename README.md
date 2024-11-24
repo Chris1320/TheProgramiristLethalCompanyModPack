@@ -337,24 +337,6 @@
 | [WesleysInteriors](https://thunderstore.io/c/lethal-company/p/Magic_Wesley/WesleysInteriors/)                            | 1.6.2   | A few new interiors                                   |
 | [WesleysInteriorsAddon](https://thunderstore.io/c/lethal-company/p/Zehs/WesleysInteriorsAddon/)                          | 1.1.0   | Addon mod for WesleysInteriors                        |
 
-## For Consideration
-
-- [290 Summit](https://thunderstore.io/c/lethal-company/p/RosiePies/290_Summit/)
-- [CritHits](https://thunderstore.io/c/lethal-company/p/necrowing/CritHits/)
-- [Diversity](https://thunderstore.io/c/lethal-company/p/IntegrityChaos/Diversity/)
-- [DoorBreach](https://thunderstore.io/c/lethal-company/p/Nyxchrono/DoorBreach/)
-- [FairGiants](https://thunderstore.io/c/lethal-company/p/LegoMaster3650/FairGiants/)
-- [Gordion Sect0](https://thunderstore.io/c/lethal-company/p/RosiePies/Gordion_Sect0/)
-- [Lategame Upgrades](https://thunderstore.io/c/lethal-company/p/malco/Lategame_Upgrades/)
-- [LC Office](https://thunderstore.io/c/lethal-company/p/Piggy/LC_Office/)
-- [LightsOut](https://thunderstore.io/c/lethal-company/p/mrov/LightsOut/)
-- [ProblematicPilotry](https://thunderstore.io/c/lethal-company/p/windblownleaves/ProblematicPilotry/)
-- [SchoolMoon](https://thunderstore.io/c/lethal-company/p/MrUnrealTeam/SchoolMoon/)
-- [Scoopys Variety Mod](https://thunderstore.io/c/lethal-company/p/scoopy/Scoopys_Variety_Mod/)
-- [Sector0 Interior](https://thunderstore.io/c/lethal-company/p/RosiePies/Sector0_Interior/)
-- [Synthesis Moon](https://thunderstore.io/c/lethal-company/p/luakite/Synthesis_Moon/)
-- [ViewExtension](https://thunderstore.io/c/lethal-company/p/sfDesat/ViewExtension/)
-
 ## Removed
 
 | Mod Name                                                                                                                 | Version | Description                                           | Reason                              |
