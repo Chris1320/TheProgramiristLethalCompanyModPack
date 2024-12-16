@@ -151,27 +151,9 @@ def check_for_updates(mod_category: str, mods: dict[str, Mod]) -> dict[str, Mod]
     return upgradable_mods
 
 
-def main():
-    """Main function"""
-
-    time_start = time.time()
-
-    mods_list: dict[str, dict[str, Mod]] = {
-        "Core": read_mods_list("Core"),
-        "Quality-of-Life & Visual Mods": read_mods_list(
-            "Quality-of-Life & Visual Mods"
-        ),
-        "Mods that significantly change the gameplay": read_mods_list(
-            "Mods that significantly change the gameplay"
-        ),
-    }
-    upgradable_mods: dict[str, dict[str, Mod]] = {}
-
-    for mod_category in mods_list:
-        upgradable_mods[mod_category] = check_for_updates(
-            mod_category, mods_list[mod_category]
-        )
-
+def list_all_mods(
+    mods_list: dict[str, dict[str, Mod]], upgradable_mods: dict[str, dict[str, Mod]]
+) -> None:
     print()
 
     def create_table(category: str) -> prettytable.PrettyTable:
@@ -228,6 +210,61 @@ def main():
                 )
 
         print(table)
+
+
+def list_upgradable_mods(
+    mods_list: dict[str, dict[str, Mod]], upgradable_mods: dict[str, dict[str, Mod]]
+) -> None:
+    """Print only the mods with updates available."""
+
+    i = 1
+    for mod_category in upgradable_mods:
+        for mod in upgradable_mods[mod_category].values():
+            print(
+                "{i}: {name}{deprecated} {c_yellow}{old_ver}{c_reset} -> {c_green}{new_ver}{c_reset}".format(
+                    c_yellow=colorama.Fore.YELLOW,
+                    c_green=colorama.Fore.GREEN,
+                    c_reset=colorama.Style.RESET_ALL,
+                    i=i,
+                    name=mod.name,
+                    old_ver=mods_list[mod_category][mod.name].version,
+                    new_ver=mod.version,
+                    deprecated=(
+                        f" ({colorama.Fore.RED}Deprecated{colorama.Style.RESET_ALL})"
+                        if mod.deprecated
+                        else ""
+                    ),
+                )
+            )
+            i += 1
+
+
+def main():
+    """Main function"""
+
+    time_start = time.time()
+
+    mods_list: dict[str, dict[str, Mod]] = {
+        "Core": read_mods_list("Core"),
+        "Quality-of-Life & Visual Mods": read_mods_list(
+            "Quality-of-Life & Visual Mods"
+        ),
+        "Mods that significantly change the gameplay": read_mods_list(
+            "Mods that significantly change the gameplay"
+        ),
+    }
+    upgradable_mods: dict[str, dict[str, Mod]] = {}
+
+    for mod_category in mods_list:
+        upgradable_mods[mod_category] = check_for_updates(
+            mod_category, mods_list[mod_category]
+        )
+
+    if "--all" in sys.argv[1:]:
+        list_all_mods(mods_list=mods_list, upgradable_mods=upgradable_mods)
+
+    else:
+        list_upgradable_mods(mods_list=mods_list, upgradable_mods=upgradable_mods)
 
     total_mods = sum(len(mods) for mods in mods_list.values())
     total_upgradable_mods = sum(len(mods) for mods in upgradable_mods.values())
