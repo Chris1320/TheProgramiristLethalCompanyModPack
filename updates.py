@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# pylint: disable=C0114,C0115,C0116,C0301,C0206
+
 import datetime
 import sys
 import time
@@ -24,7 +26,7 @@ class Mod:
 
 def read_mods_list(mod_category: str) -> dict[str, Mod]:
     """Read the README.md file and extract the mods list"""
-    with open("README.md", "r") as f:
+    with open("README.md", "r", encoding="utf-8") as f:
         lines = f.readlines()
 
     mods: dict[str, Mod] = {}
@@ -103,7 +105,7 @@ def get_mod_update(mod: Mod) -> Mod | None:
                     data["is_deprecated"],
                 )
 
-        except Exception as e:
+        except Exception as e:  # pylint: disable=W0718
             print(f"[E] Failed to check for updates for {mod.name}: {e}")
             return None
 
@@ -130,7 +132,7 @@ def get_mod_update(mod: Mod) -> Mod | None:
                     datetime.datetime.fromisoformat(data["published_at"]),
                 )
 
-        except Exception as e:
+        except Exception as e:  # pylint: disable=W0718
             print(f"[E] Failed to check for updates for {mod.name}: {e}")
             return None
 
@@ -186,7 +188,7 @@ def list_all_mods(
                                 mod.name
                             ].last_updated.strftime("%Y-%m-%d")
                             if upgradable_mods[mod_category][mod.name].last_updated
-                            else f"{colorama.Fore.BLACK}N/A{colorama.Style.RESET_ALL}"
+                            else f"{colorama.Fore.LIGHTBLACK_EX}N/A{colorama.Style.RESET_ALL}"
                         ),
                         (
                             f"{colorama.Fore.RED}YES{colorama.Style.RESET_ALL}"
@@ -221,7 +223,17 @@ def list_upgradable_mods(
     for mod_category in upgradable_mods:
         for mod in upgradable_mods[mod_category].values():
             print(
-                "{i}: {name}{deprecated} {c_yellow}{old_ver}{c_reset} -> {c_green}{new_ver}{c_reset}".format(
+                "{i}: {name} {c_yellow}{old_ver}{c_reset} -> {c_red}Deprecated{c_reset}".format(  # pylint: disable=C0209
+                    c_yellow=colorama.Fore.YELLOW,
+                    c_red=colorama.Fore.RED,
+                    c_reset=colorama.Style.RESET_ALL,
+                    i=i,
+                    name=mod.name,
+                    old_ver=mod.version,
+                )
+                if mod.deprecated
+                and mods_list[mod_category][mod.name].version == mod.version
+                else "{i}: {name}{deprecated} {c_yellow}{old_ver}{c_reset} -> {c_green}{new_ver}{c_reset}".format(
                     c_yellow=colorama.Fore.YELLOW,
                     c_green=colorama.Fore.GREEN,
                     c_reset=colorama.Style.RESET_ALL,
