@@ -2,7 +2,8 @@
 
 | ModPack Version     | Supported Lethal Company Version | Date Released | Downloads                                                                                                                                                                      |
 | ------------------- | -------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **v8.5** (*Latest*) | v68                              | 2024-11-22    | [Drive](https://drive.google.com/file/d/1vgQsxy2CLDuSoljz3NTGAOIO-1njodKQ/view?usp=sharing), [MEGA](https://mega.nz/file/JvYSERTI#-WowbHL9Irp_9YU6_mTEkNxDx5y1qoqokRAFfCsTSyk) |
+| **v9.0** (_Latest_) | v72                              | 2025-09-17    | [Drive](https://drive.google.com/file/d/1No37zQQCDF3f2d5-OnZm4xUjLGc0HRhs/view?usp=sharing), [MEGA](https://mega.nz/file/I2oADCLI#kgG--7DGRTN5-oYthCTU8mAXWkPBcvmuwc5X2jX2NEA) |
+| **v8.5**            | v68                              | 2024-11-22    | [Drive](https://drive.google.com/file/d/1vgQsxy2CLDuSoljz3NTGAOIO-1njodKQ/view?usp=sharing), [MEGA](https://mega.nz/file/JvYSERTI#-WowbHL9Irp_9YU6_mTEkNxDx5y1qoqokRAFfCsTSyk) |
 | v8.4                | v68                              | 2024-11-19    | [MEGA](https://mega.nz/file/s7o1RCZK#e8JUCKG3X-STlHibBOyYPc8_g5-kwF8JFt61XEO2JY0)                                                                                              |
 | v8.3                | v68                              | 2024-11-13    | [MEGA](https://mega.nz/file/wngWwQLa#riN9s2aWgRIFVDSuGf2t9i-yKAKkszEafMFHWwl_XlI)                                                                                              |
 | v8.2                | v68                              | 2024-11-12    | [MEGA](https://mega.nz/file/kuoGWKZS#Stl1D9ogX06YXg7UGPh5QFu1yX0Kl6By5bYAW9OoXJE)                                                                                              |
@@ -29,6 +30,76 @@
 
 ## Changelog
 
+<details>
+  <summary>Changes in v9.0</summary>
+  <ul>
+    <li>Added DawnLib</li>
+    <li>Added DungeonGenerationPlus</li>
+    <li>Added EnemySkinKit</li>
+    <li>Added EnemySkinRegistry</li>
+    <li>Added MaskedInvisFix</li>
+    <li>Added MaskFixes</li>
+    <li>Added PathfindingLib</li>
+    <li>Added TerraMesh</li>
+    <li>Added Universal Radar</li>
+    <li>Removed LC Masked Fix</li>
+    <li>Updated AsyncLoggers to v2.1.4</li>
+    <li>Updated Atlas Abyss to 1.2.6</li>
+    <li>Updated AutoHookGenPatcher to 1.0.7</li>
+    <li>Updated BepInEx Faster Load AssetBundles Patcher to 1.0.1</li>
+    <li>Updated BepInEx to 5.4.23.3</li>
+    <li>Updated BetterEXP to 2.6.2</li>
+    <li>Updated Celest to 1.1.6</li>
+    <li>Updated CoilHeadStare to 1.1.0</li>
+    <li>Updated Coroner to 2.3.0</li>
+    <li>Updated CozyOffice to 1.3.6</li>
+    <li>Updated Cruiser Additions to 1.4.9</li>
+    <li>Updated CullFactory to 2.0.0</li>
+    <li>Updated Dantors Mental Hospital to 1.3.0</li>
+    <li>Updated DetourContext Dispose Fix to 1.0.5</li>
+    <li>Updated DramaMask to 2.1.4</li>
+    <li>Updated EnemySoundFixes to 1.8.1</li>
+    <li>Updated EnhancedLockpicker to 1.1.7</li>
+    <li>Updated EnhancedRadarBooster to 1.8.0</li>
+    <li>Updated FacilityMeltdown to 2.7.3</li>
+    <li>Updated FairAI to 1.5.2</li>
+    <li>Updated FixPluginTypesSerialization to 1.1.2</li>
+    <li>Updated HandheldMap to 1.6.3</li>
+    <li>Updated ImmersiveScrap to 1.4.2</li>
+    <li>Updated JLL to 1.9.8</li>
+    <li>Updated LethalCompany InputUtils to 0.7.10</li>
+    <li>Updated LethalCompanyProgressionPatchFix to 2.3.2</li>
+    <li>Updated LethalLevelLoader to 1.4.11</li>
+    <li>Updated LethalLib to 1.1.1</li>
+    <li>Updated LethalNetworkAPI to 3.3.2</li>
+    <li>Updated LethalPerformance to 1.2.0</li>
+    <li>Updated LETHALRESONANCE to 4.7.8</li>
+    <li>Updated Loadstone to 0.1.23</li>
+    <li>Updated loaforcsSoundAPI to 2.0.8</li>
+    <li>Updated LobbyCompatibility to 1.5.1</li>
+    <li>Updated Locker to 1.6.1</li>
+    <li>Updated Malfunctions to 1.10.1</li>
+    <li>Updated Mimics to 2.7.0</li>
+    <li>Updated Mirage to 1.26.0</li>
+    <li>Updated MirageCore to 1.0.4</li>
+    <li>Updated More Suits to 1.5.2</li>
+    <li>Updated MoreCompany to 1.11.2</li>
+    <li>Updated MrovLib to 0.3.6</li>
+    <li>Updated OdinSerializer to 2024.2.2700</li>
+    <li>Updated PathfindingLagFix to 2.2.4</li>
+    <li>Updated PsychSanctum to 1.0.4</li>
+    <li>Updated Remnants to 1.4.2</li>
+    <li>Updated SecretLabs to 3.4.5</li>
+    <li>Updated ShipWindows to 2.5.1</li>
+    <li>Updated SpikeTrapFixes to 1.2.0</li>
+    <li>Updated StarlancerAIFix to 3.11.1</li>
+    <li>Updated StarlancerMoons to 3.2.0</li>
+    <li>Updated TerminalFormatter to 0.2.30</li>
+    <li>Updated TooManyEmotes to 2.3.11</li>
+    <li>Updated Wesleys Skins to 1.0.2</li>
+    <li>Updated WesleysInteriors to 3.0.8</li>
+  </ul>
+</details>
 <details>
   <summary>Changes in v8.5</summary>
   <ul>
@@ -213,102 +284,111 @@
 
 ### Core
 
-| Mod Name                                                                                                                                | Version   | Description                                                |
-| --------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---------------------------------------------------------- |
-| [AsyncLoggers](https://thunderstore.io/c/lethal-company/p/mattymatty/AsyncLoggers/)                                                     | 2.1.2     | YEET the logs to their own thread!                         |
-| [AutoHookGenPatcher](https://thunderstore.io/c/lethal-company/p/Hamunii/AutoHookGenPatcher/)                                            | 1.0.4     | Nerd stuff                                                 |
-| [BepInEx](https://github.com/BepInEx/BepInEx)                                                                                           | 5.4.23.2  | Plugin Framework for Unity Games                           |
-| [BepInEx Faster Load AssetBundles Patcher](https://thunderstore.io/c/lethal-company/p/DiFFoZ/BepInEx_Faster_Load_AssetBundles_Patcher/) | 0.6.5     | Makes start up loading time faster                         |
-| [CSync](https://thunderstore.io/c/lethal-company/p/Sigurd/CSync/)                                                                       | 5.0.1     | Configuration file syncing                                 |
-| [CullFactory](https://thunderstore.io/c/lethal-company/p/fumiko/CullFactory/)                                                           | 1.4.3     | Implement culling to Lethal Company to improve performance |
-| [DetourContext Dispose Fix](https://thunderstore.io/c/lethal-company/p/Hamunii/DetourContext_Dispose_Fix/)                              | 1.0.3     | Hooray! More nerd stuff                                    |
-| [EmployeeAssignments Updater Fix](https://thunderstore.io/c/lethal-company/p/Dev1A3/EmployeeAssignments_Updater_Fix/)                   | 1.0.0     | Disables the broken update checker for EmployeeAssignments |
-| [EnemySoundFixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/EnemySoundFixes/)                                         | 1.5.10    | Fixes numerous issues with sound effects                   |
-| [FixPluginTypesSerialization](https://thunderstore.io/c/lethal-company/p/Evaisa/FixPluginTypesSerialization/)                           | 1.1.1     | Unity nerd stuff                                           |
-| [HarmonyXTranspilerFix](https://thunderstore.io/c/lethal-company/p/DiFFoZ/HarmonyXTranspilerFix/)                                       | 1.1.0     | Fixes HarmonyX Transpiler                                  |
-| [JLL](https://thunderstore.io/c/lethal-company/p/JacobG5/JLL/)                                                                          | 1.7.7     | Jacob's Lethal Libraries - For Jacob's Mods                |
-| [LateCompany](https://github.com/ANormalTwig/LC-LateCompany)                                                                            | 1.0.17    | Allows players to join after the game starts               |
-| [LethalLevelLoader](https://thunderstore.io/c/lethal-company/p/IAmBatby/LethalLevelLoader/)                                             | 1.3.10    | Custom levels and dungeons integration                     |
-| [LethalLib](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalLib/)                                                               | 0.16.1    | Modding tools                                              |
-| [LethalModDataLib](https://thunderstore.io/c/lethal-company/p/MaxWasUnavailable/LethalModDataLib/)                                      | 1.2.2     | Library for saving and loading modded data                 |
-| [LethalNetworkAPI](https://thunderstore.io/c/lethal-company/p/xilophor/LethalNetworkAPI/)                                               | 3.3.1     | Networking library                                         |
-| [LethalPerformance](https://thunderstore.io/c/lethal-company/p/DiFFoZ/LethalPerformance/)                                               | 0.4.2     | Optimizes the game by using Unity Jobs and Burst API       |
-| [LethalSettings](https://thunderstore.io/c/lethal-company/p/willis81808/LethalSettings/)                                                | 1.4.1     | A centralized place for configuring mods from in-game      |
-| [loaforcsSoundAPI](https://thunderstore.io/c/lethal-company/p/loaforc/loaforcsSoundAPI/)                                                | 1.1.7     | A soundtool for soundpack creators                         |
-| [LobbyCompatibility](https://thunderstore.io/c/lethal-company/p/BMX/LobbyCompatibility/)                                                | 1.3.0     | Better vanilla/modded lobby compatibility                  |
-| [LethalCompany InputUtils](https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/)                                | 0.7.7     | Neeeeerd!                                                  |
-| [MirageCore](https://thunderstore.io/c/lethal-company/p/qwbarch/MirageCore/)                                                            | 1.0.1     | Core dependencies for Mirage                               |
-| [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/)                                                  | 1.11.0    | Allows 4+ players in one game                              |
-| [MoreItems](https://thunderstore.io/c/lethal-company/p/Drakorle/MoreItems/)                                                             | 1.0.2     | Changes the max items on save to 999                       |
-| [MrovLib](https://thunderstore.io/c/lethal-company/p/mrov/MrovLib/)                                                                     | 0.2.8     | Another nerdy library                                      |
-| [NAudio](https://thunderstore.io/c/lethal-company/p/Bobbie/NAudio/)                                                                     | 2.2.2     | Audio and MIDI library for .NET                            |
-| [NAudioLame](https://thunderstore.io/c/lethal-company/p/qwbarch/NAudioLame/)                                                            | 2.1.1     | Add MP3 encoding support to NAudio                         |
-| [OdinSerializer](https://thunderstore.io/c/lethal-company/p/Lordfirespeed/OdinSerializer/)                                              | 2022.11.9 | Nerd stuff again                                           |
-| [PathfindingLagFix](https://thunderstore.io/c/lethal-company/p/Zaggy1024/PathfindingLagFix/)                                            | 1.4.0     | Fix stutters caused by the AI of Brackens and Snare Fleas  |
-| [Runtime Netcode Patcher](https://thunderstore.io/c/lethal-company/p/Ozone/Runtime_Netcode_Patcher/)                                    | 0.2.5     | Patches Netcode RPC                                        |
-| [StarlancerAIFix](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerAIFix/)                                              | 3.8.4     | AI fix, bruh                                               |
-| [StaticNetcodeLib](https://thunderstore.io/c/lethal-company/p/xilophor/StaticNetcodeLib/)                                               | 1.1.1     | A library/patcher for NGO in a static context              |
-| [TerminalApi](https://thunderstore.io/c/lethal-company/p/NotAtomicBomb/TerminalApi/)                                                    | 1.5.5     | A Terminal API                                             |
-| [UniTask](https://thunderstore.io/c/lethal-company/p/Bobbie/UniTask/)                                                                   | 2.5.0     | Efficient allocation free async/await integration          |
+| Mod Name                                                                                                                                | Version   | Description                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------------------- | --------- | --------------------------------------------------------------------------------- |
+| [AsyncLoggers](https://thunderstore.io/c/lethal-company/p/mattymatty/AsyncLoggers/)                                                     | 2.1.4     | YEET the logs to their own thread!                                                |
+| [AutoHookGenPatcher](https://thunderstore.io/c/lethal-company/p/Hamunii/AutoHookGenPatcher/)                                            | 1.0.7     | Nerd stuff                                                                        |
+| [BepInEx](https://github.com/BepInEx/BepInEx)                                                                                           | 5.4.23.3  | Plugin Framework for Unity Games                                                  |
+| [BepInEx Faster Load AssetBundles Patcher](https://thunderstore.io/c/lethal-company/p/DiFFoZ/BepInEx_Faster_Load_AssetBundles_Patcher/) | 1.0.1     | Makes start up loading time faster                                                |
+| [CSync](https://thunderstore.io/c/lethal-company/p/Sigurd/CSync/)                                                                       | 5.0.1     | Configuration file syncing                                                        |
+| [CullFactory](https://thunderstore.io/c/lethal-company/p/fumiko/CullFactory/)                                                           | 2.0.0     | Implement culling to Lethal Company to improve performance                        |
+| [DawnLib](https://thunderstore.io/c/lethal-company/p/TeamXiaolan/DawnLib/)                                                              | 0.1.9     | A modern API for Lethal Company content and all sizes of mods                     |
+| [DetourContext Dispose Fix](https://thunderstore.io/c/lethal-company/p/Hamunii/DetourContext_Dispose_Fix/)                              | 1.0.5     | Hooray! More nerd stuff                                                           |
+| [DungeonGenerationPlus](https://thunderstore.io/c/lethal-company/p/Alice/DungeonGenerationPlus/)                                        | 1.4.1     | API to expand the compatibilities of Lethal Company's dungeon generation          |
+| [EmployeeAssignments Updater Fix](https://thunderstore.io/c/lethal-company/p/Dev1A3/EmployeeAssignments_Updater_Fix/)                   | 1.0.0     | Disables the broken update checker for EmployeeAssignments                        |
+| [EnemySkinKit](https://thunderstore.io/c/lethal-company/p/AntlerShed/EnemySkinKit/)                                                     | 1.4.1     | Toolkit for making enemy skins in the unity editor                                |
+| [EnemySkinRegistry](https://thunderstore.io/c/lethal-company/p/AntlerShed/EnemySkinRegistry/)                                           | 1.5.1     | Compatibility mod for custom enemy skins                                          |
+| [EnemySoundFixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/EnemySoundFixes/)                                         | 1.8.1     | Fixes numerous issues with sound effects                                          |
+| [FixPluginTypesSerialization](https://thunderstore.io/c/lethal-company/p/Evaisa/FixPluginTypesSerialization/)                           | 1.1.2     | Unity nerd stuff                                                                  |
+| [HarmonyXTranspilerFix](https://thunderstore.io/c/lethal-company/p/DiFFoZ/HarmonyXTranspilerFix/)                                       | 1.1.0     | Fixes HarmonyX Transpiler                                                         |
+| [JLL](https://thunderstore.io/c/lethal-company/p/JacobG5/JLL/)                                                                          | 1.9.8     | Jacob's Lethal Libraries - For Jacob's Mods                                       |
+| [LateCompany](https://github.com/ANormalTwig/LC-LateCompany)                                                                            | 1.0.17    | Allows players to join after the game starts                                      |
+| [LethalLevelLoader](https://thunderstore.io/c/lethal-company/p/IAmBatby/LethalLevelLoader/)                                             | 1.3.10    | Custom levels and dungeons integration                                            |
+| [LethalLib](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalLib/)                                                               | 0.16.1    | Modding tools                                                                     |
+| [LethalModDataLib](https://thunderstore.io/c/lethal-company/p/MaxWasUnavailable/LethalModDataLib/)                                      | 1.2.2     | Library for saving and loading modded data                                        |
+| [LethalNetworkAPI](https://thunderstore.io/c/lethal-company/p/xilophor/LethalNetworkAPI/)                                               | 3.3.1     | Networking library                                                                |
+| [LethalPerformance](https://thunderstore.io/c/lethal-company/p/DiFFoZ/LethalPerformance/)                                               | 0.4.2     | Optimizes the game by using Unity Jobs and Burst API                              |
+| [LethalSettings](https://thunderstore.io/c/lethal-company/p/willis81808/LethalSettings/)                                                | 1.4.1     | A centralized place for configuring mods from in-game                             |
+| [loaforcsSoundAPI](https://thunderstore.io/c/lethal-company/p/loaforc/loaforcsSoundAPI/)                                                | 1.1.7     | A soundtool for soundpack creators                                                |
+| [LobbyCompatibility](https://thunderstore.io/c/lethal-company/p/BMX/LobbyCompatibility/)                                                | 1.3.0     | Better vanilla/modded lobby compatibility                                         |
+| [LethalCompany InputUtils](https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/)                                | 0.7.10    | Neeeeerd!                                                                         |
+| [MirageCore](https://thunderstore.io/c/lethal-company/p/qwbarch/MirageCore/)                                                            | 1.0.1     | Core dependencies for Mirage                                                      |
+| [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/)                                                  | 1.11.0    | Allows 4+ players in one game                                                     |
+| [MoreItems](https://thunderstore.io/c/lethal-company/p/Drakorle/MoreItems/)                                                             | 1.0.2     | Changes the max items on save to 999                                              |
+| [MrovLib](https://thunderstore.io/c/lethal-company/p/mrov/MrovLib/)                                                                     | 0.2.8     | Another nerdy library                                                             |
+| [NAudio](https://thunderstore.io/c/lethal-company/p/Bobbie/NAudio/)                                                                     | 2.2.2     | Audio and MIDI library for .NET                                                   |
+| [NAudioLame](https://thunderstore.io/c/lethal-company/p/qwbarch/NAudioLame/)                                                            | 2.1.1     | Add MP3 encoding support to NAudio                                                |
+| [OdinSerializer](https://thunderstore.io/c/lethal-company/p/Lordfirespeed/OdinSerializer/)                                              | 2022.11.9 | Nerd stuff again                                                                  |
+| [PathfindingLagFix](https://thunderstore.io/c/lethal-company/p/Zaggy1024/PathfindingLagFix/)                                            | 1.4.0     | Fix stutters caused by the AI of Brackens and Snare Fleas                         |
+| [PathfindingLib](https://thunderstore.io/c/lethal-company/p/Zaggy1024/PathfindingLib/)                                                  | 2.3.2     | Provides functionality for mod authors to run pathfinding off of the main thread. |
+| [Runtime Netcode Patcher](https://thunderstore.io/c/lethal-company/p/Ozone/Runtime_Netcode_Patcher/)                                    | 0.2.5     | Patches Netcode RPC                                                               |
+| [StarlancerAIFix](https://thunderstore.io/c/lethal-company/p/AudioKnight/StarlancerAIFix/)                                              | 3.8.4     | AI fix, bruh                                                                      |
+| [StaticNetcodeLib](https://thunderstore.io/c/lethal-company/p/xilophor/StaticNetcodeLib/)                                               | 1.1.1     | A library/patcher for NGO in a static context                                     |
+| [TerminalApi](https://thunderstore.io/c/lethal-company/p/NotAtomicBomb/TerminalApi/)                                                    | 1.5.5     | A Terminal API                                                                    |
+| [TerraMesh](https://thunderstore.io/c/lethal-company/p/v0xx/TerraMesh/)                                                                 | 1.2.0     | An API for terrain to mesh conversion and mesh manipulation                       |
+| [UniTask](https://thunderstore.io/c/lethal-company/p/Bobbie/UniTask/)                                                                   | 2.5.0     | Efficient allocation free async/await integration                                 |
+| [Universal Radar](https://thunderstore.io/c/lethal-company/p/ScienceBird/Universal_Radar/)                                              | 1.2.3     | Improved, dynamic, and configurable contour maps (and more) for every moon        |
 
 ### Quality-of-Life & Visual Mods
 
-| Mode Name                                                                                                           | Version | Description                                         |
-| ------------------------------------------------------------------------------------------------------------------- | ------- | --------------------------------------------------- |
-| [AAAAAGHH](https://thunderstore.io/c/lethal-company/p/SkrimpGang/AAAAAGHH/)                                         | 1.0.1   | AAAAAGHH                                            |
-| [BetterEXP](https://thunderstore.io/c/lethal-company/p/Swaggies/BetterEXP/)                                         | 2.5.2   | More advanced EXP system                            |
-| [Celestial Tint](https://thunderstore.io/c/lethal-company/p/sfDesat/Celestial_Tint/)                                | 1.5.2   | Adds new visuals when in orbit                      |
-| [Cruiser Additions](https://thunderstore.io/c/lethal-company/p/4902/Cruiser_Additions/)                             | 1.4.0   | the name implies its purpose                        |
-| [CoilHeadStare](https://thunderstore.io/c/lethal-company/p/TwinDimensionalProductions/CoilHeadStare/)               | 1.0.9   | Makes the Coil Head slowly turn and face you        |
-| [Coroner](https://thunderstore.io/c/lethal-company/p/EliteMasterEric/Coroner/)                                      | 2.2.0   | Rework the Performance Report                       |
-| [Corporate Restructure](https://thunderstore.io/c/lethal-company/p/Jamil/Corporate_Restructure/)                    | 1.0.6   | QoL overhaul for corporate executives               |
-| [CozyImprovements](https://thunderstore.io/c/lethal-company/p/Spyci/CozyImprovements/)                              | 1.2.2   | More immersive and cozy ship environment            |
-| [DiscountAlert](https://thunderstore.io/c/lethal-company/p/akechii/DiscountAlert/)                                  | 2.3.0   | Alerts you which items have a discount              |
-| [EladsHUD](https://thunderstore.io/c/lethal-company/p/EladNLG/EladsHUD/)                                            | 1.3.0   | Replaces the player hud with a different one        |
-| [FadingFlashlights](https://thunderstore.io/c/lethal-company/p/Dolphin2Point0/FadingFlashlights/)                   | 1.0.2   | Dims flashlights as the battery gets lower          |
-| [Fashion Company](https://thunderstore.io/c/lethal-company/p/Dwarggo/Fashion_Company/)                              | 1.3.1   | Includes 8 unique suits to choose from              |
-| [FreeJester](https://thunderstore.io/c/lethal-company/p/atg/FreeJester/)                                            | 1.0.3   | Free Bird guitar solo for Jester                    |
-| [Helmet Cameras](https://thunderstore.io/c/lethal-company/p/RickArg/Helmet_Cameras/)                                | 2.1.5   | First-person cameras                                |
-| [HideChat](https://thunderstore.io/c/lethal-company/p/Monkeytype/HideChat/)                                         | 1.0.0   | Fully fade out the text chat when not in use        |
-| [Hold Scan Button](https://thunderstore.io/c/lethal-company/p/FutureSavior/Hold_Scan_Button/)                       | 1.1.2   | Allows you to hold the scan button                  |
-| [LC Masked Fix](https://thunderstore.io/c/lethal-company/p/kuba6000/LC_Masked_Fix/)                                 | 0.0.2   | Fix vanilla masked bugs                             |
-| [LETHALRESONANCE](https://thunderstore.io/c/lethal-company/p/LethalResonance/LETHALRESONANCE/)                      | 4.7.5   | Enhanced audio tweaks and custom sounds             |
-| [LethalRichPresence](https://thunderstore.io/c/lethal-company/p/mrov/LethalRichPresence/)                           | 0.5.9   | Discord Rich Presence support in-game               |
-| [Lethal Foundation Suits](https://thunderstore.io/c/lethal-company/p/Lethal_Global_Occult/Lethal_Foundation_Suits/) | 1.3.0   | Adds 5 suits inspired by the SCP foundation         |
-| [LCMaxSoundsFix](https://thunderstore.io/c/lethal-company/p/Hardy/LCMaxSoundsFix/)                                  | 1.2.0   | Fix missing footsteps and other sound               |
-| [Loadstone](https://thunderstore.io/c/lethal-company/p/AdiBTW/Loadstone/)                                           | 0.1.14  | Reduces stuttering during level loading             |
-| [More Emotes](https://thunderstore.io/c/lethal-company/p/Sligili/More_Emotes/)                                      | 1.3.3   | Read the mod name                                   |
-| [More Suits](https://thunderstore.io/c/lethal-company/p/x753/More_Suits/)                                           | 1.4.5   | Adds more suits                                     |
-| [NameplateTweaks](https://thunderstore.io/c/lethal-company/p/taffyko/NameplateTweaks/)                              | 1.0.7   | Provides tweaks... for nameplates...                |
-| [scanForItemsFix](https://thunderstore.io/c/lethal-company/p/ThePotato/scanForItemsFix/)                            | 1.0.4   | Fixes an error that occurs when scanning for scraps |
-| [SuitSaver](https://thunderstore.io/c/lethal-company/p/Hexnet111/SuitSaver/)                                        | 1.2.1   | Save your last used suit                            |
-| [TerminalFormatter](https://thunderstore.io/c/lethal-company/p/mrov/TerminalFormatter/)                             | 0.2.23  | Rework of terminal's pages                          |
-| [TooManyEmotes](https://thunderstore.io/c/lethal-company/p/FlipMods/TooManyEmotes/)                                 | 2.2.11  | Adds over 200 new emotes!                           |
-| [Wesleys Skins](https://thunderstore.io/c/lethal-company/p/Magic_Wesley/Wesleys_Skins/)                             | 1.0.1   | Adds a few new enemy skins                          |
-| [YippeeMod](https://thunderstore.io/c/lethal-company/p/sunnobunno/YippeeMod/)                                       | 1.2.4   | Yippee                                              |
+| Mode Name                                                                                                           | Version                                                                             | Description                                         |
+| ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | --------------------------------------------------- | ----------------------- | --- |
+| [AAAAAGHH](https://thunderstore.io/c/lethal-company/p/SkrimpGang/AAAAAGHH/)                                         | 1.0.1                                                                               | AAAAAGHH                                            |
+| [BetterEXP](https://thunderstore.io/c/lethal-company/p/Swaggies/BetterEXP/)                                         | 2.6.2                                                                               | More advanced EXP system                            |
+| [Celestial Tint](https://thunderstore.io/c/lethal-company/p/sfDesat/Celestial_Tint/)                                | 1.5.2                                                                               | Adds new visuals when in orbit                      |
+| [Cruiser Additions](https://thunderstore.io/c/lethal-company/p/4902/Cruiser_Additions/)                             | 1.4.9                                                                               | the name implies its purpose                        |
+| [CoilHeadStare](https://thunderstore.io/c/lethal-company/p/TwinDimensionalProductions/CoilHeadStare/)               | 1.1.0                                                                               | Makes the Coil Head slowly turn and face you        |
+| [Coroner](https://thunderstore.io/c/lethal-company/p/EliteMasterEric/Coroner/)                                      | 2.3.0                                                                               | Rework the Performance Report                       |
+| [Corporate Restructure](https://thunderstore.io/c/lethal-company/p/Jamil/Corporate_Restructure/)                    | 1.0.6                                                                               | QoL overhaul for corporate executives               |
+| [CozyImprovements](https://thunderstore.io/c/lethal-company/p/Spyci/CozyImprovements/)                              | 1.2.2                                                                               | More immersive and cozy ship environment            |
+| [DiscountAlert](https://thunderstore.io/c/lethal-company/p/akechii/DiscountAlert/)                                  | 2.3.0                                                                               | Alerts you which items have a discount              |
+| [EladsHUD](https://thunderstore.io/c/lethal-company/p/EladNLG/EladsHUD/)                                            | 1.3.0                                                                               | Replaces the player hud with a different one        |
+| [FadingFlashlights](https://thunderstore.io/c/lethal-company/p/Dolphin2Point0/FadingFlashlights/)                   | 1.0.2                                                                               | Dims flashlights as the battery gets lower          |
+| [Fashion Company](https://thunderstore.io/c/lethal-company/p/Dwarggo/Fashion_Company/)                              | 1.3.1                                                                               | Includes 8 unique suits to choose from              |
+| [FreeJester](https://thunderstore.io/c/lethal-company/p/atg/FreeJester/)                                            | 1.0.3                                                                               | Free Bird guitar solo for Jester                    |
+| [Helmet Cameras](https://thunderstore.io/c/lethal-company/p/RickArg/Helmet_Cameras/)                                | 2.1.5                                                                               | First-person cameras                                |
+| [HideChat](https://thunderstore.io/c/lethal-company/p/Monkeytype/HideChat/)                                         | 1.0.0                                                                               | Fully fade out the text chat when not in use        |
+| [Hold Scan Button](https://thunderstore.io/c/lethal-company/p/FutureSavior/Hold_Scan_Button/)                       | 1.1.2                                                                               | Allows you to hold the scan button                  |
+| <!--                                                                                                                | [LC Masked Fix](https://thunderstore.io/c/lethal-company/p/kuba6000/LC_Masked_Fix/) | 0.0.2                                               | Fix vanilla masked bugs | --> |
+| [LETHALRESONANCE](https://thunderstore.io/c/lethal-company/p/LethalResonance/LETHALRESONANCE/)                      | 4.7.5                                                                               | Enhanced audio tweaks and custom sounds             |
+| [LethalRichPresence](https://thunderstore.io/c/lethal-company/p/mrov/LethalRichPresence/)                           | 0.5.9                                                                               | Discord Rich Presence support in-game               |
+| [Lethal Foundation Suits](https://thunderstore.io/c/lethal-company/p/Lethal_Global_Occult/Lethal_Foundation_Suits/) | 1.3.0                                                                               | Adds 5 suits inspired by the SCP foundation         |
+| [LCMaxSoundsFix](https://thunderstore.io/c/lethal-company/p/Hardy/LCMaxSoundsFix/)                                  | 1.2.0                                                                               | Fix missing footsteps and other sound               |
+| [Loadstone](https://thunderstore.io/c/lethal-company/p/AdiBTW/Loadstone/)                                           | 0.1.14                                                                              | Reduces stuttering during level loading             |
+| [MaskedInvisFix](https://thunderstore.io/c/lethal-company/p/VirusTLNR/MaskedInvisFix/)                              | 0.0.2                                                                               | Fixes bugs where masked are invisible               |
+| [MaskFixes](https://thunderstore.io/c/lethal-company/p/ButteryStancakes/MaskFixes/)                                 | 1.5.1                                                                               | Fixes problems with mask items and masked enemies   |
+| [More Emotes](https://thunderstore.io/c/lethal-company/p/Sligili/More_Emotes/)                                      | 1.3.3                                                                               | Read the mod name                                   |
+| [More Suits](https://thunderstore.io/c/lethal-company/p/x753/More_Suits/)                                           | 1.4.5                                                                               | Adds more suits                                     |
+| [NameplateTweaks](https://thunderstore.io/c/lethal-company/p/taffyko/NameplateTweaks/)                              | 1.0.7                                                                               | Provides tweaks... for nameplates...                |
+| [scanForItemsFix](https://thunderstore.io/c/lethal-company/p/ThePotato/scanForItemsFix/)                            | 1.0.4                                                                               | Fixes an error that occurs when scanning for scraps |
+| [SuitSaver](https://thunderstore.io/c/lethal-company/p/Hexnet111/SuitSaver/)                                        | 1.2.1                                                                               | Save your last used suit                            |
+| [TerminalFormatter](https://thunderstore.io/c/lethal-company/p/mrov/TerminalFormatter/)                             | 0.2.23                                                                              | Rework of terminal's pages                          |
+| [TooManyEmotes](https://thunderstore.io/c/lethal-company/p/FlipMods/TooManyEmotes/)                                 | 2.2.11                                                                              | Adds over 200 new emotes!                           |
+| [Wesleys Skins](https://thunderstore.io/c/lethal-company/p/Magic_Wesley/Wesleys_Skins/)                             | 1.0.1                                                                               | Adds a few new enemy skins                          |
+| [YippeeMod](https://thunderstore.io/c/lethal-company/p/sunnobunno/YippeeMod/)                                       | 1.2.4                                                                               | Yippee                                              |
 
 ### Mods that significantly change the gameplay
 
 | Mode Name                                                                                                                | Version | Description                                           |
 | ------------------------------------------------------------------------------------------------------------------------ | ------- | ----------------------------------------------------- |
 | [AlwaysHearActiveWalkies](https://thunderstore.io/c/lethal-company/p/Suskitech/AlwaysHearActiveWalkies/)                 | 1.4.5   | Hear active walkies even when you're not holding them |
-| [Atlas Abyss](https://thunderstore.io/c/lethal-company/p/Zingar/Atlas_Abyss/)                                            | 1.2.3   | A custom moon of jagged terrain and carved stone      |
+| [Atlas Abyss](https://thunderstore.io/c/lethal-company/p/Zingar/Atlas_Abyss/)                                            | 1.2.6   | A custom moon of jagged terrain and carved stone      |
 | [BetterPresents](https://thunderstore.io/c/lethal-company/p/Nebulaetrix/BetterPresents/)                                 | 1.0.3   | Makes scrap from presents more valuable!              |
 | [BuyableShotgun](https://thunderstore.io/c/lethal-company/p/MegaPiggy/BuyableShotgun/)                                   | 1.3.0   | Adds shotgun to the store                             |
 | [BuyableShotgunShells](https://thunderstore.io/c/lethal-company/p/MegaPiggy/BuyableShotgunShells/)                       | 1.3.0   | Adds shotgun shells to the store                      |
-| [Celest](https://thunderstore.io/c/lethal-company/p/sfDesat/Celest/)                                                     | 1.1.4   | A new planet called Celest                            |
-| [CozyOffice](https://thunderstore.io/c/lethal-company/p/RosiePies/CozyOffice/)                                           | 1.2.1   | Wander around a cozy office                           |
+| [Celest](https://thunderstore.io/c/lethal-company/p/sfDesat/Celest/)                                                     | 1.1.6   | A new planet called Celest                            |
+| [CozyOffice](https://thunderstore.io/c/lethal-company/p/RosiePies/CozyOffice/)                                           | 1.3.6   | Wander around a cozy office                           |
 | [SCPFoundationDungeon](https://thunderstore.io/c/lethal-company/p/Badham_Mods/SCPFoundationDungeon/)                     | 4.3.4   | Adds SCP foundation as a potential dungeon to explore |
-| [Dantors Mental Hospital](https://thunderstore.io/c/lethal-company/p/Dantor/Dantors_Mental_Hospital/)                    | 1.2.2   | Adds a new custom interior                            |
+| [Dantors Mental Hospital](https://thunderstore.io/c/lethal-company/p/Dantor/Dantors_Mental_Hospital/)                    | 1.3.0   | Adds a new custom interior                            |
 | [DeziorsGlowstickMod](https://thunderstore.io/c/lethal-company/p/Dezior/DeziorsGlowstickMod/)                            | 1.0.11  | Adds Glowsticks as a buyable item in the terminal     |
-| [DramaMask](https://thunderstore.io/c/lethal-company/p/necrowing/DramaMask/)                                             | 2.1.3   | Wear masks to hide from masked enemies                |
+| [DramaMask](https://thunderstore.io/c/lethal-company/p/necrowing/DramaMask/)                                             | 2.1.4   | Wear masks to hide from masked enemies                |
 | [EmployeeAssignments](https://thunderstore.io/c/lethal-company/p/amnsoft/EmployeeAssignments/)                           | 1.1.0   | Personal assignments for employees                    |
-| [EnhancedLockpicker](https://thunderstore.io/c/lethal-company/p/MrHydralisk/EnhancedLockpicker/)                         | 1.1.6   | Makes the lockpicker finally useful                   |
-| [EnhancedRadarBooster](https://thunderstore.io/c/lethal-company/p/MrHydralisk/EnhancedRadarBooster/)                     | 1.7.1   | Enhance Radar Booster                                 |
-| [FacilityMeltdown](https://thunderstore.io/c/lethal-company/p/loaforc/FacilityMeltdown/)                                 | 2.6.20  | Adds reactor meltdown                                 |
-| [FairAI](https://thunderstore.io/c/lethal-company/p/TheFluff/FairAI/)                                                    | 1.4.1   | Make entities less racist                             |
-| [HandheldMap](https://thunderstore.io/c/lethal-company/p/Mellowdy/HandheldMap/)                                          | 1.6.2   | Adds a new handheld map                               |
-| [ImmersiveScrap](https://thunderstore.io/c/lethal-company/p/XuXiaolan/ImmersiveScrap/)                                   | 1.4.0   | Adds a lot of new lore-friendly scraps                |
+| [EnhancedLockpicker](https://thunderstore.io/c/lethal-company/p/MrHydralisk/EnhancedLockpicker/)                         | 1.1.7   | Makes the lockpicker finally useful                   |
+| [EnhancedRadarBooster](https://thunderstore.io/c/lethal-company/p/MrHydralisk/EnhancedRadarBooster/)                     | 1.8.0   | Enhance Radar Booster                                 |
+| [FacilityMeltdown](https://thunderstore.io/c/lethal-company/p/loaforc/FacilityMeltdown/)                                 | 2.7.3   | Adds reactor meltdown                                 |
+| [FairAI](https://thunderstore.io/c/lethal-company/p/TheFluff/FairAI/)                                                    | 1.5.2   | Make entities less racist                             |
+| [HandheldMap](https://thunderstore.io/c/lethal-company/p/Mellowdy/HandheldMap/)                                          | 1.6.3   | Adds a new handheld map                               |
+| [ImmersiveScrap](https://thunderstore.io/c/lethal-company/p/XuXiaolan/ImmersiveScrap/)                                   | 1.4.2   | Adds a lot of new lore-friendly scraps                |
 | [LethalCasino](https://thunderstore.io/c/lethal-company/p/mrgrm7/LethalCasino/)                                          | 1.1.2   | The Company has invested in a new vertical, gambling! |
 | [LethalCompanyProgressionPatchFix](https://thunderstore.io/c/lethal-company/p/TisRyno/LethalCompanyProgressionPatchFix/) | 1.7.4   | Leveling and skillpoints                              |
 | [LethalSnap](https://thunderstore.io/c/lethal-company/p/SweetOnion/LethalSnap/)                                          | 1.5.7   | Take pictures and sell them to the company            |
@@ -339,17 +419,17 @@
 
 ## Removed
 
-| Mod Name                                                                                                                 | Version | Description                                           | Reason                              |
-| ------------------------------------------------------------------------------------------------------------------------ | ------- | ----------------------------------------------------- | ----------------------------------- |
-| [BarchLib](https://thunderstore.io/c/lethal-company/p/qwbarch/BarchLib/)                                                 | 1.0.2   | Libraries and utility functions                       | Library is not used anymore         |
-| [DetailedScan](https://thunderstore.io/c/lethal-company/p/fivetoofive/DetailedScan/)                                     | 1.2.2   | Detailed scan of items outside the ship               | Slightly ruins the fun              |
-| [DimmingFlashlights](https://thunderstore.io/c/lethal-company/p/blink9803/DimmingFlashlights/)                           | 1.0.1   | Flashlights get dimmer as the battery gets low        | Replaced by FadingFlashlights       |
-| [FacilityMeltdownExperimental](https://thunderstore.io/c/lethal-company/p/loaforc/FacilityMeltdownExperimental/)         | 2.5.7   | Adds reactor meltdown                                 | Revert to stable version of mod     |
-| [GamblingMachineAtTheCompany](https://thunderstore.io/c/lethal-company/p/JunLethalCompany/GamblingMachineAtTheCompany/)  | 1.3.5   | Adds a gambling machine at The Company                | Replaced by LethalCasino            |
-| [HookGenPatcher](https://thunderstore.io/c/lethal-company/p/Evaisa/HookGenPatcher/)                                      | 0.0.5   | Nerd stuff                                            | Replaced by AutoHookGenPatcher      |
-| [LethalInternship](https://thunderstore.io/c/lethal-company/p/Szumi57/LethalInternship/)                                 | 0.18.3  | Recruit interns                                       | Causing bugs                        |
-| [PoolRooms](https://thunderstore.io/c/lethal-company/p/skidz/PoolRooms/)                                                 | 0.1.20  | Classic swimming pool aesthetic                       | Needs LethalLevelLoader             |
-| [SaveOurLoot](https://thunderstore.io/c/lethal-company/p/MrHydralisk/SaveOurLoot/)                                       | 1.4.2   | Adjust loot loss after failing a mission              | Replaced by Scrap Insurance         |
-| [SCP Foundation Suit](https://thunderstore.io/c/lethal-company/p/TeamClark/SCP_Foundation_Suit/)                         | 1.1.0   | Adds an SCP Facility Guard suit to the game           | Replaced by Lethal Foundation Suits |
-| [Skinwalkers](https://thunderstore.io/c/lethal-company/p/RugbugRedfern/Skinwalkers/)                                     | 4.0.3   | Monsters mimic the voices of your friends             | Replaced by Mirage                  |
-| [SmartItemSaving](https://thunderstore.io/c/lethal-company/p/SylviBlossom/SmartItemSaving/)                              | 1.2.4   | Improves how items on the ship save                   | Incompatible with Remnants mod      |
+| Mod Name                                                                                                                | Version | Description                                    | Reason                              |
+| ----------------------------------------------------------------------------------------------------------------------- | ------- | ---------------------------------------------- | ----------------------------------- |
+| [BarchLib](https://thunderstore.io/c/lethal-company/p/qwbarch/BarchLib/)                                                | 1.0.2   | Libraries and utility functions                | Library is not used anymore         |
+| [DetailedScan](https://thunderstore.io/c/lethal-company/p/fivetoofive/DetailedScan/)                                    | 1.2.2   | Detailed scan of items outside the ship        | Slightly ruins the fun              |
+| [DimmingFlashlights](https://thunderstore.io/c/lethal-company/p/blink9803/DimmingFlashlights/)                          | 1.0.1   | Flashlights get dimmer as the battery gets low | Replaced by FadingFlashlights       |
+| [FacilityMeltdownExperimental](https://thunderstore.io/c/lethal-company/p/loaforc/FacilityMeltdownExperimental/)        | 2.5.7   | Adds reactor meltdown                          | Revert to stable version of mod     |
+| [GamblingMachineAtTheCompany](https://thunderstore.io/c/lethal-company/p/JunLethalCompany/GamblingMachineAtTheCompany/) | 1.3.5   | Adds a gambling machine at The Company         | Replaced by LethalCasino            |
+| [HookGenPatcher](https://thunderstore.io/c/lethal-company/p/Evaisa/HookGenPatcher/)                                     | 0.0.5   | Nerd stuff                                     | Replaced by AutoHookGenPatcher      |
+| [LethalInternship](https://thunderstore.io/c/lethal-company/p/Szumi57/LethalInternship/)                                | 0.18.3  | Recruit interns                                | Causing bugs                        |
+| [PoolRooms](https://thunderstore.io/c/lethal-company/p/skidz/PoolRooms/)                                                | 0.1.20  | Classic swimming pool aesthetic                | Needs LethalLevelLoader             |
+| [SaveOurLoot](https://thunderstore.io/c/lethal-company/p/MrHydralisk/SaveOurLoot/)                                      | 1.4.2   | Adjust loot loss after failing a mission       | Replaced by Scrap Insurance         |
+| [SCP Foundation Suit](https://thunderstore.io/c/lethal-company/p/TeamClark/SCP_Foundation_Suit/)                        | 1.1.0   | Adds an SCP Facility Guard suit to the game    | Replaced by Lethal Foundation Suits |
+| [Skinwalkers](https://thunderstore.io/c/lethal-company/p/RugbugRedfern/Skinwalkers/)                                    | 4.0.3   | Monsters mimic the voices of your friends      | Replaced by Mirage                  |
+| [SmartItemSaving](https://thunderstore.io/c/lethal-company/p/SylviBlossom/SmartItemSaving/)                             | 1.2.4   | Improves how items on the ship save            | Incompatible with Remnants mod      |

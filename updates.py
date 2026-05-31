@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "colorama>=0.4.6",
+#     "httpx>=0.28.1",
+#     "prettytable>=3.17.0",
+#     "tqdm>=4.67.3",
+# ]
+# ///
 
 # pylint: disable=C0114,C0115,C0116,C0301,C0206
 
